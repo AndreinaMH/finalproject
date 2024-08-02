@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: My_dogcare
+    password: My_dogcare
+    url: jdbc:mysql://localhost:3306/My_dogcare
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
